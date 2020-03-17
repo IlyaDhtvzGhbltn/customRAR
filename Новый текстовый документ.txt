@@ -1,0 +1,22 @@
+0JjRgtCw0LvQuNGPIC0g0KTRgNCw0L3RhtC40Y8gMToyCtCU0LjQtdCz0L4gMDAyCtCe0LvQsNC90LQgMDExCtCU0LXQqNCw0LwgMDg0
+
+using System;
+using System.Text;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string pint = "0JjRgtCw0LvQuNGPIC0g0KTRgNCw0L3RhtC40Y8gMToyCtCU0LjQtdCz0L4gMDAyCtCe0LvQsNC90LQgMDExCtCU0LXQqNCw0LwgMDg0";
+		byte[] bytes = new byte[pint.Length];
+		string str = "";
+		for (int i=0; i < pint.Length; i++)
+		{
+			byte item = (byte)pint[i];
+			bytes[i] = item;
+			str += item.ToString();
+		}
+		var mod = Convert.ToDouble(str);
+		Console.Write(mod%514);
+	}
+}
