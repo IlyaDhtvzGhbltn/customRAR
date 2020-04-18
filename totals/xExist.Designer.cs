@@ -121,7 +121,7 @@ namespace totals
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::totals.Properties.Resources.txt_img_ico;
+            this.pictureBox2.Image = global::forecast.Properties.Resources.txt_img_ico;
             this.pictureBox2.Location = new System.Drawing.Point(50, 244);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(35, 49);
@@ -131,7 +131,7 @@ namespace totals
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::totals.Properties.Resources.txt_img_ico;
+            this.pictureBox1.Image = global::forecast.Properties.Resources.txt_img_ico;
             this.pictureBox1.Location = new System.Drawing.Point(50, 152);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(35, 49);

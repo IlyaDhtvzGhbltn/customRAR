@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace totals.Properties {
+namespace forecast.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

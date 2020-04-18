@@ -55,7 +55,7 @@ namespace totals
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::totals.Properties.Resources.left_cor_img;
+            this.pictureBox1.Image = global::forecast.Properties.Resources.left_cor_img;
             this.pictureBox1.Location = new System.Drawing.Point(12, 17);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(140, 455);
